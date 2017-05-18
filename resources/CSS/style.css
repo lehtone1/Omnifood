@@ -92,6 +92,10 @@ h2:after {
     margin: 0 auto;
     margin-top: 30px;
 }
+
+.h2-testimonials {
+    color: #FFF;
+}
 /*--------PARAGRAPHS---------*/
 
 .long-copy {
@@ -106,6 +110,16 @@ h2:after {
     line-height: 145%;
 }
 
+.testimonials-p {
+
+    color: #FFF;
+    margin-bottom: 5%;
+}
+
+.writer-p {
+    color: #FFF;
+    margin-top: 15%;
+}
 
 /*--------ICONS---------*/
 
@@ -197,6 +211,7 @@ header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
 }
 
@@ -368,3 +383,22 @@ header {
     margin-bottom: 5px;
 }
 
+/* ---------------------------------------*/
+/* TESTIMONIALS*/
+/* ---------------------------------------*/
+
+.section-testimonials {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+.customer-img {
+    border-radius: 50%;
+    float: left;
+    width: 30%;
+    height: auto;
+    margin-right: 5%;
+}
