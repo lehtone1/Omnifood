@@ -93,9 +93,6 @@
         width: 30px
     }
 
-    .section-testimonials {
-        height: 200vh;
-    }
 
     blockquote {
         margin-top: 20%;
@@ -129,12 +126,12 @@
      }
 
      .links {
-         margin-left: 10%;
+         margin-left: 20%;
          margin-bottom: 30px;
      }
 
      .social-media {
-         margin-left: 30%;
+         margin-left: 35%;
          float: none;
          margin-bottom: 30px;
      }
