@@ -112,7 +112,7 @@ h2:after {
 
 .price-per-month {
     color: #e67e22;
-    font-size: 200%;
+    font-size: 250%;
     margin-bottom: 2%;
 }
 
@@ -431,6 +431,25 @@ cite img {
 /* SIGN-UP*/
 /* ---------------------------------------*/
 
+.section-sign-up {
+    background-color: #F4f4f4;
+}
+
+.plan-box {
+    background-color: #FFF;
+    border-radius: 5%;
+    width:90%;
+    margin-left: 5%;
+}
+
+.plan-box div {
+    padding: 10px;
+}
+
+.plan-box div:last-child {
+    text-align: center;
+}
+
 .checkboxes {
     margin-bottom: 4%;
 }
@@ -439,4 +458,8 @@ cite img {
     padding-bottom: 2%;
     display: blocK;
 
+}
+
+.price-per-month span {
+    font-size: 30%;
 }
