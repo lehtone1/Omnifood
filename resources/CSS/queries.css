@@ -10,6 +10,8 @@
 
     .row { padding:0 2%;}
 
+    .footer-extra { padding:50px; }
+
 }
 
 
@@ -20,17 +22,126 @@
     section { padding: 60px 0}
 
     .long-copy {
-    line-height: 145%;
-    width: 80%;
-    margin-left: 10%;
+        width: 80%;
+        margin-left: 10%;
 
-}
+    }
+
+    .app-screen { width: 50%; }
+
+    .icon-small {
+        font-size: 100%;
+        margin-right: 0px;
+        width: 20px
+    }
+
+    .city-feature { font-size:85%;}
+
+    .plan-box { 
+        width:100%;
+        font-size: 90%;
+     }
+
+     .contact-form { 
+         width: 80%;
+         margin-left: 10%;
+     }
 
 }
 
 
 /* Small phones to small tablets 481 - 767px */
 @media only screen and (max-width:767px) {
+    body { font-size: 16px; }
+    section { padding: 20px 0}
+
+    .row,
+    .hero-text-box { padding: 0 4%;}
+
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+}
+
+    .main-nav { display: none; }
+
+    h1 { font-size: 200%;}
+    h2 { font-size: 140%;}
+    h3 { font-size: 130%}
+
+    .long-copy { 
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .app-screen { 
+        margin-left: 25%;
+        margin-bottom: 10%;
+    }
+
+    .works-step p { 
+        font-size: 120%;
+        margin-bottom: 30px;
+    }
+
+    .city-feature { font-size:110%;}
+
+
+    .icon-small {
+        font-size: 160%;
+        margin-right: 5px;
+        width: 30px
+    }
+
+    .section-testimonials {
+        height: 200vh;
+    }
+
+    blockquote {
+        margin-top: 20%;
+    }
+
+    cite img {
+        border-radius: 50%;
+        width: 15%;
+        height: auto;
+        margin-right: 25px;
+        vertical-align: middle;
+    }
+
+    .plan-box {
+        width:90%;
+        margin-left: 5%;
+        font-size: 100%;
+    }
+
+    .contact-form { 
+         width: 100%;
+         margin-left: 0;
+     }
+
+     label {
+         float: left;
+     }
+
+     input[type=submit] {
+         margin-left: 33%;
+     }
+
+     .links {
+         margin-left: 10%;
+         margin-bottom: 30px;
+     }
+
+     .social-media {
+         margin-left: 30%;
+         float: none;
+         margin-bottom: 30px;
+     }
+
+
+    
+
 
 
 }
@@ -38,5 +149,6 @@
 /* Small phones from 1 -480px */
 @media only screen and (max-width:480px) {
 
+    section { padding: 25px 0;}
 
 }

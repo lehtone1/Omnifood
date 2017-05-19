@@ -13,6 +13,7 @@
     box-sizing: border-box;
 }
 
+
 html {
     background-color: #FFF;
     color: #555;
@@ -340,6 +341,7 @@ header {
 
 .app-screen {
     width: 40%;
+    margin-left: 10%;
 }
 
 .works-step {
@@ -477,7 +479,7 @@ cite img {
 .contact-form {
 
     width: 60%;
-    margin: 0, auto;
+    margin-left: 20%;
 }
 
 
@@ -504,6 +506,7 @@ input[type=checkbox] {
 
 footer {
     background-color: rgba(0, 0, 0, 0.9);
+    height: 200px;
 }
 
 .links {
@@ -545,8 +548,8 @@ footer {
     border: none;
 }
 
-.social-media li a:hover, 
-.social-media li a:active {
+.social-media li a:visited, 
+.social-media li a:link {
     font-size: 180%;
 }
 
