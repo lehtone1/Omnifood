@@ -163,7 +163,8 @@ a:active{
 /*--------BUTTONS---------*/
 
 .btn:link, 
-.btn:visited{
+.btn:visited,
+input[type=submit]{
     display: inline-block;
     padding: 10px 30px;
     font-weight: 300;
@@ -174,7 +175,8 @@ a:active{
 
 
 .btn-full:link,
-.btn-full:visited{
+.btn-full:visited,
+input[type=submit]{
     background-color: #e67e22;
     border: 1px solid #e67e22;
     color: #FFF;
@@ -188,12 +190,16 @@ a:active{
 }
 
 .btn:hover,
-.btn:active {
+.btn:active, 
+input[type=submit]:hover,
+input[type=submit]:active {
     background-color: #cf6d17;
 }
 
 .btn-full:hover,
-.btn-full:active {
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
     border: 1px solid #e67e22;
 }
 
@@ -462,4 +468,73 @@ cite img {
 
 .price-per-month span {
     font-size: 30%;
+}
+
+/* ---------------------------------------*/
+/* FORM*/
+/* ---------------------------------------*/
+
+.contact-form {
+
+    width: 60%;
+    margin: 0, auto;
+}
+
+
+input[type=text],
+select[type=text],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #929292;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=checkbox] {
+    margin: 10px, 5px, 10x, 5px;
+}
+
+/* ---------------------------------------*/
+/* FOOTER*/
+/* ---------------------------------------*/
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+.links {
+  list-style-type: none;
+}
+.links li {
+    float:left;
+    margin: 1%
+}
+.links li a {
+    display: block;
+    color: #555;
+    border: none;
+    font-size: 90%;
+}
+
+.social-media {
+    list-style-type: none;
+}
+
+.social-media li {
+    float: left;
+    margin: 4%;
+}
+
+.social-media li i {
+}
+
+.footer-extra {
+    text-align: center;
+    color: #555;
+    font-size: 90%;
+    padding:50px;
 }
