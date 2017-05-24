@@ -234,7 +234,7 @@ header {
             transform: translate(-50%, -50%)
 }
 
-.logo, {
+.logo {
     height: 100px;
     width: auto;
     float: left;
