@@ -2,14 +2,16 @@
 
 <html lang="en">
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
+
         <link rel="stylesheet" type="text/CSS" href="vendors/CSS/normalize.css">
         <link rel="stylesheet" type="text/CSS" href="vendors/CSS/grid.css">
         <link rel="stylesheet" type="text/CSS" href="vendors/CSS/ionicons.min.css">
         <link rel="stylesheet" type="text/CSS" href="vendors/CSS/animate.css">
-        <link rel="stylesheet" type="text/CSS" href="resources/CSS/style.css">
         <link rel="stylesheet" type="text/CSS" href="resources/CSS/queries.css">
+        <link rel="stylesheet" type="text/CSS" href="resources/CSS/style.css">
         <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">   
         <title>Omnifood</title>
 
@@ -89,6 +91,7 @@
         </section>
 
         <section class="section-meals">
+            <h2>Meals</h2>
             <ul class="meals-showcase clearfix">
                 <li>
                     <figure class="meal-photo">
@@ -163,7 +166,7 @@
             </div>
         </section>
 
-        <section class"section-cities" id="cities">
+        <section class="section-cities" id="cities">
             <div class="row">
                 <h2>We're currently in these cities</h2>
             </div>
@@ -243,12 +246,12 @@
             </div>
 
             <div class="row">
-                <dic class="col span-1-of-3">
+                <div class="col span-1-of-3">
                     <blockquote>
                          Omnifood is just awesome! I just launched a startup which leaves me with no time for cooking, so Omnifood is a life-saver. Now that I got used to it, I couldn't live without my daily meals!
                     </blockquote>
                     <cite> <img src="resources/img/customer-1.jpg" alt="Customer"> &mdash; Alberto Duncan </cite>
-                </dic>
+                </div>
                 <div class="col span-1-of-3">
                     <blockquote>
                         Inexpensive, healthy and great-tasting meals, delivered right to my home. We have lots of food delivery here in Lisbon, but no one comes even close to Omifood. Me and my family are so in love!
@@ -278,10 +281,13 @@
                             <p class="price-per-meal">That’s only 13.30$ per meal</p>
                         </div>
                         <div class="checkboxes">
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> 1 meal every day</li>
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> Order 24/7</li>
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> Access to newest creations</li>
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> Free delivery</li>
+                            <ul>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> 1 meal every day</li>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> Order 24/7</li>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> Access to newest creations</li>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> Free delivery</li>
+
+                            </ul>
                         </div>
                         <div>
                             <a href="#" class="btn btn-full">Sign-Up Now</a>
@@ -296,10 +302,13 @@
                             <p class="price-per-meal">That’s only 14.90$ per meal</p>
                         </div>
                         <div class="checkboxes">
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> 1 meal 10 days/month</li>
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7  </li>
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> Access to newest creations</li>
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> Free delivery </li>
+                            <ul>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> 1 meal 10 days/month</li>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i>Order 24/7  </li>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> Access to newest creations</li>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> Free delivery </li>
+
+                            </ul>
                         </div>
                         <div>
                             <a href="#" class="btn btn-ghost">Sign-Up Now</a>
@@ -311,13 +320,16 @@
                         <div>
                             <h3>Starter</h3>
                             <p class="price-per-month">19$ <span>/meal</span></p>
-                            <p class="price-per-meal">&nbsp</p>
+                            <p class="price-per-meal">&nbsp;</p>
                         </div>
                         <div class="checkboxes">
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> 1 meal</li>
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> Order from 8 am to 12 pm</li>
-                            <li> <i class="ion-ios-close-empty icon-small"></i> </li>
-                            <li> <i class="ion-ios-checkmark-empty icon-small"></i> Free delivery</li>
+                            <ul>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> 1 meal</li>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> Order from 8 am to 12 pm</li>
+                                <li> <i class="ion-ios-close-empty icon-small"></i> </li>
+                                <li> <i class="ion-ios-checkmark-empty icon-small"></i> Free delivery</li>
+
+                            </ul>
                         </div>
                         <div>
                             <a href="#" class="btn btn-ghost">Sign-Up Now</a>
@@ -332,7 +344,7 @@
                 <h2>We're happy to hear from you</h2>
             </div>
             <div class="row">
-                <form method="post" action="" class="contact-form">
+                <form method="post" action="#" class="contact-form">
                     <div class="row">
                         <div class="col span-1-of-3">
                             <label for="name">Name</label>
@@ -394,7 +406,7 @@
                 <div class="col span-3-of-4">
                     <ul class="links"> 
                         <li><a href="#">About us</a></li>
-                        <li><a href=="#">Blog</a></li>
+                        <li><a href="#">Blog</a></li>
                         <li><a href="#">Press</a></li>
                         <li><a href="#">iOS App</a></li>
                         <li><a href="#">Android App</a></li>
@@ -425,22 +437,3 @@
     
 </html>
 
-<!---
-
-Section 8: Footer
-Title: None
-
-Navigation:
-1. About us
-2. Blog
-3. Press
-4. iOS App
-5. Android App
-
-Also include links to facebook, twitter, google+ and Instagram accounts.
-
-
-
-
-
--->

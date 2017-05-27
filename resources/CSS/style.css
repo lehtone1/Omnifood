@@ -334,6 +334,10 @@ header {
     padding: 0px;
 }
 
+.section-meals h2 {
+    display: none;
+}
+
 .meals-showcase {
     list-style: none;
     width: 100%;
